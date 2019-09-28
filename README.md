@@ -2,6 +2,8 @@
 
 Boid flocking simulation using gazebo simulator and ros
 
+![image1](https://gitlab.com/Sreevis/boid-simulation/images/flocking.jpg)
+
 Installation Instructions
 -------------------------
 1. Install [ROS](https://wiki.ros.org/kinetic/Installation/Ubuntu) and gazebo
