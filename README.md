@@ -18,8 +18,11 @@ $ catkin_init_workspace  # initialize your catkin workspace
 $ cd ~/catkin_ws/src
 $ git clone https://gitlab.com/Sreevis/boid-simulation.git
 $ catkin_make
+```
 
 4. Source for `setup.bash` file for every new terminal
+
+```
 $ source devel/setup.bash
 ```
 
