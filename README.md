@@ -2,7 +2,7 @@
 
 Boid flocking simulation using gazebo simulator and ros
 
-![image1](https://gitlab.com/Sreevis/boid-simulation/images/flocking.jpg)
+![image1](images/flocking.jpg)
 
 Installation Instructions
 -------------------------
