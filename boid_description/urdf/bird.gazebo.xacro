@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<robot name="boid" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find boid_description)/urdf/bird.urdf.xacro" />
+    <xacro:include filename="$(find boid_description)/urdf/materials.xacro" />
+</robot>

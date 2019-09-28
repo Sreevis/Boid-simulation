@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Bird link-->
+  <xacro:macro name="bird_macro">
+    <link name="base_link">
+      <inertial>
+        <mass value="0.002" />
+        <origin xyz="0 0 0" />
+        <inertia ixx="0.002" ixy="0.0" ixz="0.0" iyy="0.002" iyz="0.0" izz="0.002" />
+      </inertial>
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://boid_description/meshes/bird.dae"/>
+        </geometry>
+      </visual>
+
+      <!--collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://boid_description/meshes/bird.stl"/>
+        </geometry>
+      </collision-->
+    </link>
+  </xacro:macro>
+
+  <xacro:bird_macro />
+</robot>
