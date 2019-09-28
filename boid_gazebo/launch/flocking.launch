@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!--Boid nodes for 15 boids-->
+<launch>
+    <group ns="boid0">
+        <node pkg="boid_gazebo" type="boid" name="boid0" output="screen">
+	<remap from="cmd_vel" to="/boid0/cmd_vel" />
+        </node>
+    </group>
+    <group ns="boid1">
+        <node pkg="boid_gazebo" type="boid" name="boid1" output="screen">
+	<remap from="cmd_vel" to="/boid1/cmd_vel" />
+        </node>
+    </group>
+    <group ns="boid2">
+        <node pkg="boid_gazebo" type="boid" name="boid2" output="screen">
+	<remap from="cmd_vel" to="/boid2/cmd_vel" />
+        </node>
+    </group>
+    <group ns="boid3">
+        <node pkg="boid_gazebo" type="boid" name="boid3" output="screen">
+        <remap from="cmd_vel" to="/boid3/cmd_vel" />
+        </node>
+    </group>
+    <group ns="boid4">
+        <node pkg="boid_gazebo" type="boid" name="boid4" output="screen">
+        <remap from="cmd_vel" to="/boid4/cmd_vel" />
+        </node>
+    </group>
+
+<!-- -->
+<group ns="boid5">
+    <node pkg="boid_gazebo" type="boid" name="boid5" output="screen">
+    <remap from="cmd_vel" to="/boid5/cmd_vel" />
+    </node>
+</group>
+<group ns="boid6">
+    <node pkg="boid_gazebo" type="boid" name="boid6" output="screen">
+    <remap from="cmd_vel" to="/boid6/cmd_vel" />
+    </node>
+</group>
+<group ns="boid7">
+    <node pkg="boid_gazebo" type="boid" name="boid7" output="screen">
+    <remap from="cmd_vel" to="/boid7/cmd_vel" />
+    </node>
+</group>
+<group ns="boid8">
+    <node pkg="boid_gazebo" type="boid" name="boid8" output="screen">
+    <remap from="cmd_vel" to="/boid8/cmd_vel" />
+    </node>
+</group>
+<group ns="boid9">
+    <node pkg="boid_gazebo" type="boid" name="boid9" output="screen">
+    <remap from="cmd_vel" to="/boid9/cmd_vel" />
+    </node>
+</group>
+
+
+<group ns="boid10">
+    <node pkg="boid_gazebo" type="boid" name="boid5" output="screen">
+    <remap from="cmd_vel" to="/boid10/cmd_vel" />
+    </node>
+</group>
+<group ns="boid11">
+    <node pkg="boid_gazebo" type="boid" name="boid6" output="screen">
+    <remap from="cmd_vel" to="/boid11/cmd_vel" />
+    </node>
+</group>
+<group ns="boid12">
+    <node pkg="boid_gazebo" type="boid" name="boid7" output="screen">
+    <remap from="cmd_vel" to="/boid12/cmd_vel" />
+    </node>
+</group>
+<group ns="boid13">
+    <node pkg="boid_gazebo" type="boid" name="boid8" output="screen">
+    <remap from="cmd_vel" to="/boid13/cmd_vel" />
+    </node>
+</group>
+<group ns="boid14">
+    <node pkg="boid_gazebo" type="boid" name="boid9" output="screen">
+    <remap from="cmd_vel" to="/boid14/cmd_vel" />
+    </node>
+</group>
+   
+</launch>
+

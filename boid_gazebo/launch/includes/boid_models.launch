@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<launch>
+  <!--spawn 15 boid models-->
+  <arg name="model" default="$(find boid_description)/urdf/bird.gazebo.xacro"/>
+  <group ns="boid0">
+    <include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+      <arg name="name" value="boid0" />
+      <arg name="tf_prefix" value="boid0" />
+      <arg name="model" value="$(arg model)" />
+      <arg name="x" value="0.3" />
+      <arg name="y" value="0.3" />
+    </include>
+  </group>
+
+<group ns="boid1">
+  <include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+    <arg name="name" value="boid1" />
+    <arg name="tf_prefix" value="boid1" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="x" value="1.4" />
+    <arg name="y" value="0.3" />
+  </include>
+</group>
+
+<group ns="boid2">
+  <include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+    <arg name="name" value="boid2" />
+    <arg name="tf_prefix" value="boid2" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="x" value="1" />
+    <arg name="y" value="0.5" />
+  </include>
+</group>
+
+<group ns="boid3">
+  <include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+    <arg name="name" value="boid3" />
+    <arg name="tf_prefix" value="boid3" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="x" value="0.5" />
+    <arg name="y" value="0.5" />
+  </include>
+</group>
+<group ns="boid4">
+  <include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+    <arg name="name" value="boid4" />
+    <arg name="tf_prefix" value="boid4" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="x" value="0" />
+    <arg name="y" value="0.5" />
+  </include>
+</group>
+
+
+
+<group ns="boid5">
+  <include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+    <arg name="name" value="boid5" />
+    <arg name="tf_prefix" value="boid5" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="x" value="-0.3" />
+    <arg name="y" value="0.3" />
+  </include>
+</group>
+
+<group ns="boid6">
+<include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+  <arg name="name" value="boid6" />
+  <arg name="tf_prefix" value="boid6" />
+  <arg name="model" value="$(arg model)" />
+  <arg name="x" value="-1.4" />
+  <arg name="y" value="0.3" />
+</include>
+</group>
+
+<group ns="boid7">
+<include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+  <arg name="name" value="boid7" />
+  <arg name="tf_prefix" value="boid7" />
+  <arg name="model" value="$(arg model)" />
+  <arg name="x" value="-1" />
+  <arg name="y" value="0.5" />
+</include>
+</group>
+
+<group ns="boid8">
+<include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+  <arg name="name" value="boid8" />
+  <arg name="tf_prefix" value="boid8" />
+  <arg name="model" value="$(arg model)" />
+  <arg name="x" value="-0.5" />
+  <arg name="y" value="0.5" />
+</include>
+</group>
+<group ns="boid9">
+<include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+  <arg name="name" value="boid9" />
+  <arg name="tf_prefix" value="boid9" />
+  <arg name="model" value="$(arg model)" />
+  <arg name="x" value="-0.4" />
+  <arg name="y" value="0.5" />
+</include>
+</group>
+
+
+<group ns="boid10">
+  <include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+    <arg name="name" value="boid10" />
+    <arg name="tf_prefix" value="boid10" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="x" value="-1.3" />
+    <arg name="y" value="-1.3" />
+  </include>
+</group>
+
+<group ns="boid11">
+<include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+  <arg name="name" value="boid11" />
+  <arg name="tf_prefix" value="boid11" />
+  <arg name="model" value="$(arg model)" />
+  <arg name="x" value="-2.4" />
+  <arg name="y" value="-1.3" />
+</include>
+</group>
+
+<group ns="boid12">
+<include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+  <arg name="name" value="boid12" />
+  <arg name="tf_prefix" value="boid12" />
+  <arg name="model" value="$(arg model)" />
+  <arg name="x" value="-2" />
+  <arg name="y" value="-1.5" />
+</include>
+</group>
+
+<group ns="boid13">
+<include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+  <arg name="name" value="boid13" />
+  <arg name="tf_prefix" value="boid13" />
+  <arg name="model" value="$(arg model)" />
+  <arg name="x" value="-1.5" />
+  <arg name="y" value="-1.5" />
+</include>
+</group>
+<group ns="boid14">
+<include file="$(find boid_gazebo)/launch/spawn_boid.launch">
+  <arg name="name" value="boid14" />
+  <arg name="tf_prefix" value="boid14" />
+  <arg name="model" value="$(arg model)" />
+  <arg name="x" value="-1.4" />
+  <arg name="y" value="-1.5" />
+</include>
+</group>
+
+
+
+
+</launch>
